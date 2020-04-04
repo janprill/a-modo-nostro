@@ -20,7 +20,7 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: 'posts/**/*.md',
+        path: 'content/posts/**/*.md',
         typeName: 'Post',
         remark: {
           plugins: [
@@ -32,8 +32,20 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: 'pizza/**/*.md',
+        path: './content/pizza/*.md',
         typeName: 'Pizza',
+        remark: {
+          plugins: [
+            // ...local plugins
+          ]
+        }
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: './content/pasta/**/*.md',
+        typeName: 'Pasta',
         remark: {
           plugins: [
             // ...local plugins
