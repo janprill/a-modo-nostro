@@ -1,6 +1,7 @@
 <template>
-  <div class="layout">
+  <div class="layout font-serif">
 
+    <!--
     <header class="header">
       <strong>
         <g-link to="/">{{ $static.metadata.siteName }}</g-link>
@@ -10,6 +11,7 @@
         <g-link class="nav__link" to="/about/">About</g-link>
       </nav>
     </header>
+    -->
 
     <main>
       <slot/>
