@@ -309,30 +309,38 @@
 
           <div class="container mx-auto px-4 lg:pt-24 lg:pb-64">
             <div class="flex flex-wrap text-white justify-center mx-auto">
-              <div class="w-full lg:w-6/12 px-4">
-                <h2 class="text-4xl font-semibold text-white mt-6">Unsere Karte</h2>
+              <div class="w-full lg:w-6/12 px-4 text-gray-400">
+                <h2 class="text-4xl font-semibold mt-6">Unsere Karte</h2>
 
-                <h3 class="mt-4 font-semibold">Pizza</h3>
-                <ul class="font-light mt-2">
-                  <li v-for="edge in $page.pizzas.edges" :key="edge.node.id">
-                    {{ edge.node.title }}
-                    {{ edge.node.price }}
-                  </li>
-                </ul>
-
-                <div class="flex bg-gray-200">
-                  <div class="flex-grow text-gray-700 bg-gray-400 px-2 py-2 m-1">
-                    Will grow
-                  </div>
-                  <div class="flex-grow-0 text-gray-800 text-right bg-gray-500 px-2 py-2 m-1">
-                    Will not grow
+                <h3 class="mt-4 font-black text-2xl">Pizza</h3>
+                <div class="mt-4">
+                  <div class="mt-2 flex border-b border-gray-800" v-for="edge in $page.pizzas.edges" :key="edge.node.id">
+                    <div class="flex-grow px-2 py-2 m-1">
+                      {{ edge.node.title }}
+                    </div>
+                    <div class="flex-grow-0 text-right px-2 py-2 m-1">
+                      {{ edge.node.price }}
+                    </div>
                   </div>
                 </div>
 
-                <p class="mt-4 text-lg text-gray-200 font-serif">
+                <h3 class="mt-8 font-black text-2xl">Pasta</h3>
+                <div class="mt-4">
+                  <div class="mt-2 flex border-b border-gray-800" v-for="edge in $page.pastas.edges" :key="edge.node.id">
+                    <div class="flex-grow px-1 py-1 m-1">
+                      {{ edge.node.title }}
+                    </div>
+                    <div class="flex-grow-0 text-right px-1 py-1 m-1">
+                      {{ edge.node.price }}
+                    </div>
+                  </div>
+                </div>
+
+
+                <p class="mt-12 text-sm text-gray-200 font-serif">
                   Jetzt unter 87 44 83 telefonisch bestellen!  
                 </p>
-                <p class="mt-4 text-lg text-gray-200 font-serif">
+                <p class="mt-4 text-sm text-gray-200 font-serif">
                   Wir sind täglich bis auf Mittwochs von 17.30-22.00 Uhr für Euch da.
                   Sonntags von 11.30 - 16.00 Uhr.
                 </p>
@@ -361,6 +369,15 @@ export default {
 <page-query>
 query {
   pizzas: allPizza(sortBy:"price", order:ASC) {
+    edges {
+      node {
+        title
+        price
+      }
+    }
+  }
+
+  pastas: allPasta(sortBy:"price", order:ASC) {
     edges {
       node {
         title
