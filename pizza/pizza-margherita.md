@@ -1,4 +1,4 @@
 ---
-title: Pizza Margherita
-price: '7,50'
+title: Pizza Diavola (mit pikanter Salami
+price: '8,50'
 ---
