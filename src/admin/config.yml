@@ -8,7 +8,7 @@ public_folder: "/uploads"
 collections:
   - name: "posts"
     label: "Posts"
-    folder: "posts"
+    folder: "content/posts"
     create: true
     slug: "{{slug}}"
     fields:
@@ -18,7 +18,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "soups"
     label: "Eintöpfe und Suppen"
-    folder: "soups"
+    folder: "content/soups"
     create: true
     slug: "{{slug}}"
     fields:
@@ -28,7 +28,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown", required: false}
   - name: "klein"
     label: "Klein und Beliebt"
-    folder: "klein"
+    folder: "content/klein"
     create: true
     slug: "{{slug}}"
     fields:
@@ -38,7 +38,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown", required: false}
   - name: "pizza"
     label: "Pizza"
-    folder: "pizza"
+    folder: "content/pizza"
     create: true
     slug: "{{slug}}"
     fields:
@@ -48,7 +48,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown", required: false}
   - name: "pasta"
     label: "Pasta"
-    folder: "pasta"
+    folder: "content/pasta"
     create: true
     slug: "{{slug}}"
     fields:
@@ -58,7 +58,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown", required: false}
   - name: "salads"
     label: "Salads"
-    folder: "salads"
+    folder: "content/salads"
     create: true
     slug: "{{slug}}"
     fields:
@@ -68,7 +68,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown", required: false}
   - name: "rustikal"
     label: "Rustikal"
-    folder: "rustikal"
+    folder: "content/rustikal"
     create: true
     slug: "{{slug}}"
     fields:
@@ -78,7 +78,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown", required: false}
   - name: "kids"
     label: "Kids"
-    folder: "kids"
+    folder: "content/kids"
     create: true
     slug: "{{slug}}"
     fields:
