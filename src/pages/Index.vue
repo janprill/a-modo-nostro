@@ -103,7 +103,7 @@
                 >
                   <div class="px-4 py-5 flex-auto">
                     <div
-                      class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-500"
+                      class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-600"
                     >
                       <i class="fas fa-fingerprint"></i>
                     </div>
@@ -308,12 +308,27 @@
           </div>
 
           <div class="container mx-auto px-4 lg:pt-24 lg:pb-64">
-            <div class="flex flex-wrap text-center justify-center text-white">
+            <div class="flex flex-wrap text-white justify-center mx-auto">
               <div class="w-full lg:w-6/12 px-4">
-                <h2 class="text-4xl font-semibold text-white">Unsere Karte</h2>
-                <p>
-                  TODO: Gerichte mit Preisen auflisten
-                </p>
+                <h2 class="text-4xl font-semibold text-white mt-6">Unsere Karte</h2>
+
+                <h3 class="mt-4 font-semibold">Pizza</h3>
+                <ul class="font-light mt-2">
+                  <li v-for="edge in $page.pizzas.edges" :key="edge.node.id">
+                    {{ edge.node.title }}
+                    {{ edge.node.price }}
+                  </li>
+                </ul>
+
+                <div class="flex bg-gray-200">
+                  <div class="flex-grow text-gray-700 bg-gray-400 px-2 py-2 m-1">
+                    Will grow
+                  </div>
+                  <div class="flex-grow-0 text-gray-800 text-right bg-gray-500 px-2 py-2 m-1">
+                    Will not grow
+                  </div>
+                </div>
+
                 <p class="mt-4 text-lg text-gray-200 font-serif">
                   Jetzt unter 87 44 83 telefonisch bestellen!  
                 </p>
@@ -342,3 +357,16 @@ export default {
   }
 }
 </script>
+
+<page-query>
+query {
+  pizzas: allPizza(sortBy:"price", order:ASC) {
+    edges {
+      node {
+        title
+        price
+      }
+    }
+  }
+}
+</page-query>

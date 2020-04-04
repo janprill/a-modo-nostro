@@ -20,7 +20,7 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: 'content/posts/**/*.md',
+        path: './content/posts/**/*.md',
         typeName: 'Post',
         remark: {
           plugins: [
@@ -46,6 +46,66 @@ module.exports = {
       options: {
         path: './content/pasta/**/*.md',
         typeName: 'Pasta',
+        remark: {
+          plugins: [
+            // ...local plugins
+          ]
+        }
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: './content/kids/**/*.md',
+        typeName: 'Kid',
+        remark: {
+          plugins: [
+            // ...local plugins
+          ]
+        }
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: './content/klein/**/*.md',
+        typeName: 'Klein',
+        remark: {
+          plugins: [
+            // ...local plugins
+          ]
+        }
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: './content/soups/**/*.md',
+        typeName: 'Soup',
+        remark: {
+          plugins: [
+            // ...local plugins
+          ]
+        }
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: './content/salads/**/*.md',
+        typeName: 'Salad',
+        remark: {
+          plugins: [
+            // ...local plugins
+          ]
+        }
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: './content/rustikal/**/*.md',
+        typeName: 'Rustikal',
         remark: {
           plugins: [
             // ...local plugins
