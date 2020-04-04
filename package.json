@@ -11,6 +11,7 @@
     "@gridsome/transformer-remark": "^0.5.0",
     "gridsome": "^0.7.0",
     "gridsome-plugin-netlify-cms": "^1.0.9",
+    "gridsome-plugin-tailwindcss": "^2.2.43",
     "netlify-cms": "^2.10.39"
   }
 }
