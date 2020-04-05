@@ -31,7 +31,7 @@
                 <div class="border max-w-3xl mx-auto rounded shadow mt-8 p-6">
                   <p class="mt-4 text-lg text-gray-200 font-serif">
                     Jetzt unter 
-                  <a href="tel:+4940874483">87 44 83</a>
+                  <a class="underline" href="tel:+4940874483">87 44 83</a>
                     telefonisch bestellen!  
                   </p>
                   <p class="mt-4 text-lg text-gray-200 font-serif">
@@ -325,7 +325,7 @@
 
                 <p class="mt-12 text-sm text-gray-200 font-serif">
                   Jetzt unter 
-                  <a href="tel:+4940874483">87 44 83</a>
+                  <a class="underline" href="tel:+4940874483">87 44 83</a>
                   telefonisch bestellen!  
                 </p>
                 <p class="mt-4 text-sm text-gray-200 font-serif">
