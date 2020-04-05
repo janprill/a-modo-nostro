@@ -30,7 +30,9 @@
                 </div>
                 <div class="border max-w-3xl mx-auto rounded shadow mt-8 p-6">
                   <p class="mt-4 text-lg text-gray-200 font-serif">
-                    Jetzt unter 87 44 83 telefonisch bestellen!  
+                    Jetzt unter 
+                  <a href="tel:+4940874483">87 44 83</a>
+                    telefonisch bestellen!  
                   </p>
                   <p class="mt-4 text-lg text-gray-200 font-serif">
                     Wir sind täglich bis auf Mittwochs von 17.30-22.00 Uhr für Euch da.
@@ -312,33 +314,19 @@
               <div class="w-full lg:w-6/12 px-4 text-gray-400">
                 <h2 class="text-4xl font-semibold mt-6">Unsere Karte</h2>
 
-                <h3 class="mt-4 font-black text-2xl">Pizza</h3>
-                <div class="mt-4">
-                  <div class="mt-2 flex border-b border-gray-800" v-for="edge in $page.pizzas.edges" :key="edge.node.id">
-                    <div class="flex-grow px-2 py-2 m-1">
-                      {{ edge.node.title }}
-                    </div>
-                    <div class="flex-grow-0 text-right px-2 py-2 m-1">
-                      {{ edge.node.price }}
-                    </div>
-                  </div>
-                </div>
-
-                <h3 class="mt-8 font-black text-2xl">Pasta</h3>
-                <div class="mt-4">
-                  <div class="mt-2 flex border-b border-gray-800" v-for="edge in $page.pastas.edges" :key="edge.node.id">
-                    <div class="flex-grow px-1 py-1 m-1">
-                      {{ edge.node.title }}
-                    </div>
-                    <div class="flex-grow-0 text-right px-1 py-1 m-1">
-                      {{ edge.node.price }}
-                    </div>
-                  </div>
-                </div>
+                <MenuSection :items="$page.pizzas" title="Pizza" />
+                <MenuSection :items="$page.pastas" title="Pasta" />
+                <MenuSection :items="$page.soups" title="Eintöpfe / Suppen" />
+                <MenuSection :items="$page.klein" title="Kleinigkeiten" />
+                <MenuSection :items="$page.rustikal" title="Rustikales" />
+                <MenuSection :items="$page.salads" title="Salate" />
+                <MenuSection :items="$page.kids" title="Für die Kleinen" />
 
 
                 <p class="mt-12 text-sm text-gray-200 font-serif">
-                  Jetzt unter 87 44 83 telefonisch bestellen!  
+                  Jetzt unter 
+                  <a href="tel:+4940874483">87 44 83</a>
+                  telefonisch bestellen!  
                 </p>
                 <p class="mt-4 text-sm text-gray-200 font-serif">
                   Wir sind täglich bis auf Mittwochs von 17.30-22.00 Uhr für Euch da.
@@ -355,13 +343,15 @@
   </Layout>
 </template>
 <script>
-import NavbarComponent from "../components/Navbar.vue";
-import FooterComponent from "../components/Footer.vue";
+import NavbarComponent from "~/components/Navbar.vue";
+import FooterComponent from "~/components/Footer.vue";
+import MenuSection from "~/components/MenuSection.vue";
 export default {
   name: "landing-page",
   components: {
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    MenuSection
   }
 }
 </script>
@@ -385,5 +375,51 @@ query {
       }
     }
   }
+
+  kids: allKids(sortBy:"price", order:ASC) {
+    edges {
+      node {
+        title
+        price
+      }
+    }
+  }
+
+  klein: allKlein(sortBy:"price", order:ASC) {
+    edges {
+      node {
+        title
+        price
+      }
+    }
+  }
+
+  rustikal: allRustikal(sortBy:"price", order:ASC) {
+    edges {
+      node {
+        title
+        price
+      }
+    }
+  }
+
+  salads: allSalads(sortBy:"price", order:ASC) {
+    edges {
+      node {
+        title
+        price
+      }
+    }
+  }
+
+  soups: allSoups(sortBy:"price", order:ASC) {
+    edges {
+      node {
+        title
+        price
+      }
+    }
+  }
+
 }
 </page-query>

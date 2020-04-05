@@ -57,7 +57,7 @@ module.exports = {
       use: '@gridsome/source-filesystem',
       options: {
         path: './content/kids/**/*.md',
-        typeName: 'Kid',
+        typeName: 'Kids',
         remark: {
           plugins: [
             // ...local plugins
@@ -81,7 +81,7 @@ module.exports = {
       use: '@gridsome/source-filesystem',
       options: {
         path: './content/soups/**/*.md',
-        typeName: 'Soup',
+        typeName: 'Soups',
         remark: {
           plugins: [
             // ...local plugins
@@ -93,7 +93,7 @@ module.exports = {
       use: '@gridsome/source-filesystem',
       options: {
         path: './content/salads/**/*.md',
-        typeName: 'Salad',
+        typeName: 'Salads',
         remark: {
           plugins: [
             // ...local plugins
