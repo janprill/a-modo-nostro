@@ -6,6 +6,15 @@
 
       <h2 class="mt-16 font-neuzeit text-2xl font-bold">Angaben gem&auml;&szlig; &sect; 5 TMG</h2>
       <p class="mt-6">
+        Für die Seiten von a modo nostro sind die Betreiber des Restaurants verantwortlich:
+        Angelo Fiorindo und Lars Wullenweber<br />
+        Eichengrund 25<br />
+        22589 Hamburg<br />
+        Steuer-Nr. 4261902325
+      </p>
+
+      <h2 class="mt-16 font-neuzeit text-2xl font-bold">a modo nostro wird aktuell gehostet von blankenese.online. Dafür verantwortlich:</h2>
+      <p class="mt-6">
         Inviado Ltd &amp; Co KG<br />
         Babendiekstr. 60b<br />
         22587 Hamburg

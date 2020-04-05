@@ -25,7 +25,7 @@
                   </h1>
                   <p class="mt-4 text-2xl text-gray-200 font-serif font-bold">
                     Mit der Familie original italienische Pizza und Pasta 
-                    nach Hause bestellen und genießen.
+                    bestellen, abholen und genießen.
                   </p>
                 </div>
                 <div class="border max-w-3xl mx-auto rounded shadow mt-8 p-6">
@@ -77,7 +77,8 @@
                     </div>
                     <h6 class="text-xl font-semibold">Pizza</h6>
                     <p class="mt-2 mb-4 text-gray-600">
-                      Ein wenig text zur pizza. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur error dicta id est ipsum exercitationem? Amet sint temporibus animi, ratione totam iste voluptate est quae deleniti, tempora eveniet nobis rerum!
+                      Gibt es etwas schöneres, als sich mit der Familie um eine Pizza zu versammeln? Stücke hochzunehmen, der Käse zieht sich. Genuss pur. Das geht auch in der Krise.
+                      Pizza, das ist Glück für uns. Ein Stück Normalität. Wir freuen uns auf Dich.
                     </p>
                   </div>
                 </div>
@@ -94,7 +95,8 @@
                     </div>
                     <h6 class="text-xl font-semibold">Pasta</h6>
                     <p class="mt-2 mb-4 text-gray-600">
-                      Informatives zur Pasta. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam adipisci tempora eum iure minus autem dicta, commodi pariatur, dolores repellendus nisi cumque non quod qui quisquam nostrum eveniet assumenda corrupti?
+                      Pasta, als hätte Sie die italienische Oma gekocht. Ist unsere liebste Alternative zur Pizza. Ein dampfender Topf Pasta auf den Tisch, 
+                      würzige Sauce dazu und ein Glas Wein. Das sind die Zutaten für angenehme Gespräche am Familientisch.
                     </p>
                   </div>
                 </div>
@@ -111,7 +113,8 @@
                     </div>
                     <h6 class="text-xl font-semibold">Rustikales</h6>
                     <p class="mt-2 mb-4 text-gray-600">
-                      Informationen zu den rustikalen Gerichten. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod nisi labore molestiae dolorum sint totam enim aliquam laborum officiis neque, quasi nesciunt blanditiis. Officiis inventore aliquid voluptatem, libero expedita voluptatum!
+                      Frikadellen wie bei Muttern. Wann hast Du das letzte Mal Schnibbelbohnen genossen? Du hast darauf heute mehr Lust als auf Pizza oder Pasta? Dann los,
+                      wir freuen uns auf Deinen Anruf.
                     </p>
                   </div>
                 </div>
@@ -124,18 +127,16 @@
                 >
                   <img class="rounded-full" src="/images/svb.jpg"  />
                 </div>
-                <h3 class="text-3xl mb-2 font-semibold leading-normal">
+                <h3 class="text-3xl mb-2 font-semibold leading-tight">
                   "a modo nostro". Die italienische Gastronomie am Tennisplatz des SVB
                 </h3>
                 <p
                   class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700"
                 >
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae pariatur laudantium ut quo sequi doloribus veniam corrupti similique error molestias quos reprehenderit impedit provident, sunt, saepe reiciendis quia magni delectus.
-                </p>
-                <p
-                  class="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700"
-                >
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam alias, recusandae ipsam sit iusto quis commodi eius, voluptate, rem dolor architecto cum esse corporis eum. Iure a laboriosam illum cum.
+                  Wir kochen seit Jahren für die Tennisspieler des SVB, aber auch mehr und mehr Gäste, die von Freunden gehört haben, dass bei uns mit Liebe gekocht wird.
+                  Das war vor Corona. Gerade zur schönsten Zeit des Jahres, zu der es langsam wärmer wird, die Tage länger werden und der ganze fantastische Sommer noch vor uns 
+                  liegt, trifft uns alle die Krise. Doch Aufgeben ist für uns keine Option. Wir sind dem SVB sehr dankbar, mit dem wir bereits tolle Aktionen gestartet haben, 
+                  um Euch weiter mit unserer Küche zu beglücken.
                 </p>
               </div>
               <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
@@ -186,7 +187,10 @@
                   </div>
                   <h3 class="text-3xl font-semibold">So ticken wir</h3>
                   <p class="mt-4 text-lg leading-relaxed text-gray-600">
-                    Unsere Gäste mögen uns und unser Essen weil, Lorem ipsum dolor sit, amet consectetur adipisicing elit. At sequi dolorem, debitis excepturi tenetur neque quaerat repellendus voluptas earum ex tempore accusantium modi voluptates? Modi rerum neque eligendi ad tempore.
+                    Bei uns wird mit Liebe gekocht. Es gibt ehrliches Essen, zu ehrlichen Preisen. Während der Corona-Zeit kochen wir "to go". Ihr könnt telefonisch unter
+                    <a class="underline" href="tel:+4940874483">87 44 83</a>
+                    bestellen und das Essen bei uns abholen. Wir haben Parkplätze und ermöglichen die kontakt- und virenlosen Übergabe Deiner Bestellung. Wir freuen uns auf Dich
+                    und sind dankbar, dass Du den regionalen Handel und die regionale Gastronomie unterstützt!
                   </p>
                   <ul class="list-none mt-6">
                     <li class="py-2">
@@ -199,7 +203,7 @@
                         </div>
                         <div>
                           <h4 class="text-gray-600">
-                            Mit liebe gekocht.
+                            Mit Liebe gekocht.
                           </h4>
                         </div>
                       </div>
@@ -312,7 +316,7 @@
           <div class="container mx-auto px-4 lg:pt-24 lg:pb-64">
             <div class="flex flex-wrap text-white justify-center mx-auto">
               <div class="w-full lg:w-6/12 px-4 text-gray-400">
-                <h2 class="text-4xl font-semibold mt-6">Unsere Karte</h2>
+                <h2 id="karte" class="text-4xl font-semibold mt-6">Unsere Karte</h2>
 
                 <MenuSection :items="$page.pizzas" title="Pizza" />
                 <MenuSection :items="$page.pastas" title="Pasta" />

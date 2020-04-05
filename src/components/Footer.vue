@@ -21,6 +21,7 @@
     </div>
     <div class="container mx-auto px-4">
       <div class="flex flex-wrap">
+        <!-- 
         <div class="w-full lg:w-6/12 px-4">
           <h4 class="text-3xl font-semibold">Lasst uns in Kontakt bleiben!</h4>
           <h5 class="text-lg mt-0 mb-2 text-gray-700">
@@ -39,30 +40,9 @@
             </button>
           </div>
         </div>
+        -->
         <div class="w-full lg:w-6/12 px-4">
           <div class="flex flex-wrap items-top mb-6">
-            <div class="w-full lg:w-4/12 px-4 ml-auto">
-              <span
-                class="block uppercase text-gray-600 text-sm font-semibold mb-2"
-                >Links</span
-              >
-              <ul class="list-unstyled">
-                <li>
-                  <a
-                    class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    href="https://www.creative-tim.com/presentation"
-                    >About Us</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    href="https://blog.creative-tim.com"
-                    >Blog</a
-                  >
-                </li>
-              </ul>
-            </div>
             <div class="w-full lg:w-4/12 px-4">
               <span
                 class="block uppercase text-gray-600 text-sm font-semibold mb-2"
