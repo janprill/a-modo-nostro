@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h3 class="mt-4 font-black text-2xl">{{ title }}</h3>
+    <h3 class="mt-8 font-black text-2xl">{{ title }}</h3>
     <div class="mt-4">
       <div class="mt-2 flex border-b border-gray-800" v-for="edge in items.edges" :key="edge.node.id">
         <div class="flex-grow px-1 py-1 m-1">
