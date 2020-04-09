@@ -135,7 +135,7 @@
                 >
                   Wir kochen seit Jahren für die Tennisspieler des SVB, aber auch mehr und mehr für Gäste, die von Freunden gehört haben, dass bei uns mit Liebe gekocht wird.
                   Das war vor Corona. Gerade zur schönsten Zeit des Jahres, wennn es langsam wieder wärmer wird, die Tage länger werden und der ganze fantastische Sommer noch vor uns 
-                  liegt, trifft uns alle die Krise. Aber wir geben nicht auf. Wir sind dem SVB sehr dankbar. mMit ihm haben wir schon tolle Aktionen gestartet, um Euch weiter mit unserer Küche zu beglücken.
+                  liegt, trifft uns alle die Krise. Aber wir geben nicht auf. Wir sind dem SVB sehr dankbar. Mit ihm haben wir schon tolle Aktionen gestartet, um Euch weiter mit unserer Küche zu beglücken.
                 </p>
               </div>
               <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
