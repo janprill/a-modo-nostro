@@ -1,4 +1,4 @@
 ---
-title: 'Hausgemachte Frikadelle mit lauwarmen Kartoffel-Rucolasalat'
+title: 'Hausgemachte Frikadelle mit lauwarmem Kartoffel-Rucolasalat'
 price: '5,90'
 ---

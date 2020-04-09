@@ -1,4 +1,4 @@
 ---
-title: Pizza Hawaii (mit gek. Schinken & Ananas)
+title: Pizza Hawaii (mit gekochtem Schinken & Ananas)
 price: '9,00'
 ---

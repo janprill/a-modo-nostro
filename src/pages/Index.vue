@@ -24,7 +24,7 @@
                     A Modo Nostro
                   </h1>
                   <p class="mt-4 text-2xl text-gray-200 font-serif font-bold">
-                    Mit der Familie original italienische Pizza und Pasta 
+                    Mit der Familie original Italienische Pizza und Pasta 
                     bestellen, abholen und genießen.
                   </p>
                 </div>
@@ -35,8 +35,8 @@
                     telefonisch bestellen!  
                   </p>
                   <p class="mt-4 text-lg text-gray-200 font-serif">
-                    Wir sind täglich bis auf Mittwochs von 17.30-20.30 Uhr für Euch da.
-                    Sonntags von 11.30 - 15.00 Uhr.
+                    Wir sind täglich bis auf Mittwochs von 17:30 bis 20:30 Uhr für Euch da.
+                    Sonntags von 11:30 bis 15:00 Uhr.
                   </p>
                 </div>
               </div>
@@ -77,8 +77,8 @@
                     </div>
                     <h6 class="text-xl font-semibold">Pizza</h6>
                     <p class="mt-2 mb-4 text-gray-600">
-                      Gibt es etwas schöneres, als sich mit der Familie um eine Pizza zu versammeln? Stücke hochzunehmen, der Käse zieht sich. Genuss pur. Das geht auch in der Krise.
-                      Pizza, das ist Glück für uns. Ein Stück Normalität. Wir freuen uns auf Dich.
+                      Gibt es etwas Schöneres, als sich mit der Familie um eine Pizza zu versammeln? Ein Stück Pizza in die Hand nehmen, der Käse zieht sich – Genuss pur! Das geht auch in der Krise.
+                      Pizza, das ist ein kleines Glück für uns. Ein Stück Normalität. Wir freuen uns auf Dich.
                     </p>
                   </div>
                 </div>
@@ -95,7 +95,7 @@
                     </div>
                     <h6 class="text-xl font-semibold">Pasta</h6>
                     <p class="mt-2 mb-4 text-gray-600">
-                      Pasta, als hätte Sie die italienische Oma gekocht. Ist unsere liebste Alternative zur Pizza. Ein dampfender Topf Pasta auf den Tisch, 
+                      Pasta, als hätte sie die italienische Oma gekocht. Ist unsere liebste Alternative zur Pizza. Ein dampfender Topf Pasta auf den Tisch, 
                       würzige Sauce dazu und ein Glas Wein. Das sind die Zutaten für angenehme Gespräche am Familientisch.
                     </p>
                   </div>
@@ -128,15 +128,14 @@
                   <img class="rounded-full" src="/images/svb.jpg"  />
                 </div>
                 <h3 class="text-3xl mb-2 font-semibold leading-tight">
-                  "a modo nostro". Die italienische Gastronomie am Tennisplatz des SVB
+                  "A modo nostro". Die italienische Gastronomie am Tennisplatz des SVB
                 </h3>
                 <p
                   class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700"
                 >
-                  Wir kochen seit Jahren für die Tennisspieler des SVB, aber auch mehr und mehr Gäste, die von Freunden gehört haben, dass bei uns mit Liebe gekocht wird.
-                  Das war vor Corona. Gerade zur schönsten Zeit des Jahres, zu der es langsam wärmer wird, die Tage länger werden und der ganze fantastische Sommer noch vor uns 
-                  liegt, trifft uns alle die Krise. Doch Aufgeben ist für uns keine Option. Wir sind dem SVB sehr dankbar, mit dem wir bereits tolle Aktionen gestartet haben, 
-                  um Euch weiter mit unserer Küche zu beglücken.
+                  Wir kochen seit Jahren für die Tennisspieler des SVB, aber auch mehr und mehr für Gäste, die von Freunden gehört haben, dass bei uns mit Liebe gekocht wird.
+                  Das war vor Corona. Gerade zur schönsten Zeit des Jahres, wennn es langsam wieder wärmer wird, die Tage länger werden und der ganze fantastische Sommer noch vor uns 
+                  liegt, trifft uns alle die Krise. Aber wir geben nicht auf. Wir sind dem SVB sehr dankbar. mMit ihm haben wir schon tolle Aktionen gestartet, um Euch weiter mit unserer Küche zu beglücken.
                 </p>
               </div>
               <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
@@ -251,7 +250,7 @@
                 <h2 class="text-4xl font-semibold">Wir sind für Euch da</h2>
                 <p class="text-lg leading-relaxed m-4 text-gray-600">
                   In der Krise ist es schön, ein Stück Normalität zu haben. Wir halten die 
-                  Flagge vom "a modo nostro" hoch und freuen uns über jede Bestellung.
+                  Flagge vom "A modo nostro" hoch und freuen uns über jede Bestellung.
                 </p>
               </div>
             </div>
@@ -333,8 +332,8 @@
                   telefonisch bestellen!  
                 </p>
                 <p class="mt-4 text-sm text-gray-200 font-serif">
-                  Wir sind täglich bis auf Mittwochs von 17.30-20.30 Uhr für Euch da.
-                  Sonntags von 11.30 - 15.00 Uhr.
+                  Wir sind täglich bis auf Mittwochs von 17:30 bis 20:30 Uhr für Euch da.
+                  Sonntags von 11:30 bis 15:00 Uhr.
                 </p>
               </div>
             </div>
