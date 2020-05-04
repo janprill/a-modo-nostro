@@ -35,7 +35,7 @@
                     telefonisch bestellen!  
                   </p>
                   <p class="mt-4 text-lg text-gray-200 font-serif">
-                    Wir sind täglich bis auf Mittwochs von 17:30 bis 20:30 Uhr für Euch da.
+                    Wir sind täglich von 17:30 bis 20:30 Uhr für Euch da.
                     Sonntags von 11:30 bis 15:00 Uhr.
                   </p>
                 </div>
@@ -332,7 +332,7 @@
                   telefonisch bestellen!  
                 </p>
                 <p class="mt-4 text-sm text-gray-200 font-serif">
-                  Wir sind täglich bis auf Mittwochs von 17:30 bis 20:30 Uhr für Euch da.
+                  Wir sind täglich von 17:30 bis 20:30 Uhr für Euch da.
                   Sonntags von 11:30 bis 15:00 Uhr.
                 </p>
               </div>
