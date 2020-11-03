@@ -334,7 +334,7 @@
                 <p class="mt-12 text-sm text-gray-200 font-serif">
                   Kartenzahlung ist leider nicht möglich, also bitte Taler mitbringen.  
                 </p>
-                <p class="mt-12 text-sm text-gray-200 font-serif">
+                <p class="mt-4 text-sm text-gray-200 font-serif">
                   Allergene könnt Ihr am Laden nachlesen oder bei Bestellung erfragen.  
                 </p>
                 <p class="mt-4 text-sm text-gray-200 font-serif">
