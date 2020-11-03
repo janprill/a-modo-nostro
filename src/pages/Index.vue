@@ -35,8 +35,8 @@
                     telefonisch bestellen!  
                   </p>
                   <p class="mt-4 text-lg text-gray-200 font-serif">
-                    Wir sind täglich von 17:30 bis 20:30 Uhr für Euch da.
-                    Sonntags von 11:30 bis 15:00 Uhr.
+                    Wir sind wochentags von 11:30 bis 20:30 Uhr für Euch da. Mittwochs: Ruhetag
+                    Samstags und Sonntags von 17:30 bis 20:30 Uhr.
                   </p>
                 </div>
               </div>
@@ -331,9 +331,21 @@
                   <a class="underline" href="tel:+4940874483">87 44 83</a>
                   telefonisch bestellen!  
                 </p>
+                <p class="mt-12 text-sm text-gray-200 font-serif">
+                  Kartenzahlung ist leider nicht möglich, also bitte Taler mitbringen.  
+                </p>
+                <p class="mt-12 text-sm text-gray-200 font-serif">
+                  Allergene könnt Ihr am Laden nachlesen oder bei Bestellung erfragen.  
+                </p>
                 <p class="mt-4 text-sm text-gray-200 font-serif">
-                  Wir sind täglich von 17:30 bis 20:30 Uhr für Euch da.
-                  Sonntags von 11:30 bis 15:00 Uhr.
+                  Wir sind wochentags von 11:30 bis 20:30 Uhr für Euch da. Mittwochs: Ruhetag.
+                  Samstags und Sonntags von 17:30 bis 20:30 Uhr.
+                </p>
+                <p class="mt-4 text-sm text-gray-200 font-serif">
+                  Ausserdem bereiten wir für Euch und Eure Familie auch gerne, nach Terminabsprache leckere Gerichte zu, wie zum Beispiel Ente oder Gans mit Beilagen nach Wunsch, oder deftigen Grünkohl, ideal für die „Lockdownzeit“
+                </p>
+                <p class="mt-4 text-sm text-gray-200 font-serif">
+                  Against „ Corona“ Angelo Fiorindo &amp; Lars Wullenweber
                 </p>
               </div>
             </div>
